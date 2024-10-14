@@ -8,6 +8,10 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	fontFamily: {
+		sans: ['var(--font-geist-sans)'],
+		caption: ['var(--font-caption)'],
+	},
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
