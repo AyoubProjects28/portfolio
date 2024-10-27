@@ -1,12 +1,7 @@
-import { ComponentPropsWithoutRef } from "react"
 import { Section } from "./Section"
-import { cn } from "@/lib/utils";
 import { AngularIcon } from "./icons/AngularIcon";
 import { SpringIcon } from "./icons/SpringIcon";
-
-const Code = ({ className, ...props}: ComponentPropsWithoutRef<"a">) => {
-    return <a {...props} className={cn("bg-accent/30 font-mono border border-accent p-1 rounded-sm text-primary whitespace-nowrap px-1 py-0.5 hover:bg-accent/50 transition-colors", className)}/>;
-}
+import { Code } from "./Code";
 
 export const Hero = () => {
     return (
