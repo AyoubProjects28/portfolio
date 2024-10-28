@@ -105,7 +105,7 @@ const SideProject = (props: SideProjectProps) => {
                     </div>
                 </div>
 
-                <p className="text-lg text-muted-foreground" style={{ textAlign: "justify" }}>
+                <p className="text-lg text-muted-foreground">
                     {props.description}
                 </p>
 
