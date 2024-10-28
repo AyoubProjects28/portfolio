@@ -1,3 +1,4 @@
+import { Education } from "./components/Education";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Skills } from "./components/Skills";
@@ -20,6 +21,10 @@ export default function Home() {
       <Spacing size="md"/>
 
       <Skills/>
+
+      <Spacing size="md"/>
+
+      <Education/>
 
       <Spacing size="md"/>
     </main>

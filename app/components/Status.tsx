@@ -35,7 +35,7 @@ export const Status = () => {
                         Contact me
                     </p>
                     <ContactCard name="Ayoub Ala" image="https://avatars.githubusercontent.com/u/151600303?v=4" mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgV3rvl_AvDgG9o7p9b_b1sb1ZVChFrvuNQ&s" description="On Linkedin"/>
-                    <ContactCard name="ayoubalapro28" image="https://avatars.githubusercontent.com/u/151600303?v=4" mediumImage="https://static.vecteezy.com/system/resources/previews/020/964/377/non_2x/gmail-mail-icon-for-web-design-free-png.png" description="Send me an email" urlEmail="ayoubalapro28@gmail.com"/>
+                    <ContactCard name="ayoubalapro28" image="https://avatars.githubusercontent.com/u/151600303?v=4" mediumImage="https://static.vecteezy.com/system/resources/previews/020/964/377/non_2x/gmail-mail-icon-for-web-design-free-png.png" description="Email me for any inquiries" urlEmail="ayoubalapro28@gmail.com"/>
                 </Card>
             </div>
         </Section>

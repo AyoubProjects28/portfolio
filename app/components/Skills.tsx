@@ -7,8 +7,8 @@ import { SpringIcon } from "./icons/SpringIcon"
 
 export const Skills = () => {
     return <Section className="flex flex-col gap-4 items-start">
-        <Badge variant={"outline"}>Skill</Badge>
-        <h2 className="pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+        <Badge variant={"outline"} className="text-lg">Skills</Badge>
+        <h2 className="pb-4 text-4xl font-semibold tracking-tight first:mt-0">
             I love working on...
         </h2>
         <div className="flex max-md:flex-col gap-4">
