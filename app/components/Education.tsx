@@ -18,7 +18,7 @@ export const Education = () => {
                         <div>
                             <h3 className="text-2xl font-semibold tracking-tight mb-1">Grenoble INP - Esisar</h3>
                             <p className="text-sm text-muted-foreground">
-                                <b>Master's Degree</b> in <Code>Computer Engineering</Code>, specializing in <i>Embedded Systems</i>. I gained a solid foundation in <b>Java</b> for back-end development and further built on this through <b>self-study</b> in web development.
+                                <b>Master&apos;s Degree</b> in <Code>Computer Engineering</Code>, specializing in <i>Embedded Systems</i>. I gained a solid foundation in <b>Java</b> for back-end development and further built on this through <b>self-study</b> in web development.
                             </p>
                         </div>
                     </div>
@@ -53,3 +53,4 @@ export const Education = () => {
         </Section>
     );
 };
+
