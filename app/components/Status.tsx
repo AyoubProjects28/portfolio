@@ -14,7 +14,7 @@ export const Status = () => {
                     </p>
                     <div className="flex flex-col gap-3">
                         {SIDE_PROJECTS.map((project, index) => (
-                            <SideProject key={index} logo={project.logo} title={project.title} description={project.description} url="/" state={project.state as SideProjectState}/>
+                            <SideProject key={index} logo={project.logo} title={project.title} description={project.description} url={project.url} state={project.state as SideProjectState}/>
                         ))}
                     </div>
                 </Card>
@@ -54,14 +54,14 @@ const SIDE_PROJECTS : SideProjectProps[] = [
         logo: BriefcaseBusiness,
         title: "Software Engineering Portfolio",
         description: "A showcase of my skills and projects in software engineering, built with React.js, Next.js, Shadcn, and Tailwind CSS.",
-        url: "https://www.software-engineering-portfolio.com",
+        url: "https://github.com/AyoubProjects28/portfolio",
         state: 'InProgress'
     },
     {
         logo: ShoppingCart,
         title: "Ecommerce Platform",
         description: "A robust and scalable e-commerce application developed with React, Spring, and MySQL.",
-        url: "https://www.ecommerce-platform.com",
+        url: "https://github.com/AyoubProjects28/ecommerce-app",
         state: 'InProgress'
     },
     {
@@ -84,7 +84,7 @@ type SideProjectProps = {
 
 const SideProject = (props: SideProjectProps) => {
     return (
-        <a href={props.url} className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
+        <a href={props.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded">
             <span className="bg-accent text-accent-foreground p-3 rounded-sm">
                 <props.logo/>
             </span>
