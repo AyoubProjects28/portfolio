@@ -120,24 +120,24 @@ const WORKS: WorkProps[] = [
         company: "Capgemini",
         role: "Software Engineer Angular/Java for Stellantis",
         date: "Fév.–Juill. 2024",
-        url: "/",
-        stage: true
+        url: "https://www.capgemini.com/fr-fr/",
+        internship: true
     },
     {
         image: "https://media.licdn.com/dms/image/v2/D4D0BAQEAY4v1FlZPuw/company-logo_100_100/company-logo_100_100/0/1725886352360/anyosfr_logo?e=1737590400&v=beta&t=XZFoKzlPRUiL3w9oaLVBBsJSFEV57CINVCq0qdDyNmg",
         company: "ANYOS",
         role: "Embedded Software Engineer",
         date: "Janv.–Juin. 2022",
-        url: "/",
-        stage: true
+        url: "https://www.anyos.fr/",
+        internship: true
     },
     {
         image: "https://media.licdn.com/dms/image/v2/D4E0BAQGrA-W-ZIsOoQ/company-logo_100_100/company-logo_100_100/0/1682510702496/xefi_logo?e=1737590400&v=beta&t=68FMYGWAyJz9CHJkt3kUVXOgw7pi_V25VLH2RepXgSk",
         company: "XEFI",
         role: "IT Technician",
         date: "Juin–Juill. 2023",
-        url: "/",
-        stage: true
+        url: "https://www.xefi.com/",
+        internship: true
     }
 ];
 
@@ -147,12 +147,12 @@ type WorkProps = {
     role: string,
     date: string,
     url?: string,
-    stage?: boolean
+    internship?: boolean
 };
 
 const Work = (props: WorkProps) => {
     return (
-        <a href={props.url} className="inline-flex items-center justify-between w-full hover:bg-accent/50 transition-colors p-1 rounded">
+        <a href={props.url} target="_blank" rel="noreferrer" className="inline-flex items-center justify-between w-full hover:bg-accent/50 transition-colors p-1 rounded">
             <div className="gap-4 inline-flex items-center">
                 <img src={props.image} alt={props.company} className="w-10 h-10 object-contain rounded-md"/>
 
@@ -161,7 +161,7 @@ const Work = (props: WorkProps) => {
                         <p className="text-lg font-semibold">
                             {props.company}
                         </p>
-                        {props.stage && <Badge variant="outline">Stage</Badge>}
+                        {props.internship && <Badge variant="outline">Internship</Badge>}
                     </div>
                     <p className="text-xs text-muted-foreground">
                         {props.role}
