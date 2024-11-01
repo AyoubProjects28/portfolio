@@ -30,9 +30,6 @@ export const Header = () => {
                     <Link href="https://www.linkedin.com/in/ayoub-ala-569094156" className={cn(buttonVariants({ variant: "outline" }))}>
                         <LinkedinIcon size={12} className="text-foreground"/>
                     </Link>
-                    <Link href="https://www.instagram.com/ayoobdrx28/" className={cn(buttonVariants({ variant: "outline" }))}>
-                        <InstagramIcon size={12} className="text-foreground"/>
-                    </Link>
                 </ul>
             </Section>
         </header>
