@@ -4,7 +4,6 @@ import { GithubIcon } from "./icons/GithubIcon"
 import { cn } from "@/lib/utils"
 import Link from "next/link"
 import { LinkedinIcon } from "./icons/LinkedinIcon"
-import { InstagramIcon } from "./icons/InstagramIcon"
 
 export const Header = () => {
     return (
