@@ -17,7 +17,7 @@ export const Header = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     download
-                    className="hidden sm:block font-bold text-background bg-primary py-2 px-4 rounded-full transition duration-300 ease-in-out hover:scale-105 hover:bg-primary/90"
+                    className="font-bold text-background bg-primary py-2 px-4 rounded-full transition duration-300 ease-in-out hover:scale-105 hover:bg-primary/90"
                     aria-label="Download CV"
                 >
                     Download CV

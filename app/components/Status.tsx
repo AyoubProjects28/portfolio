@@ -51,18 +51,18 @@ const SIDE_PROJECTS : SideProjectProps[] = [
         state: 'Planned'
     },
     {
-        logo: BriefcaseBusiness,
-        title: "Software Engineering Portfolio",
-        description: "A showcase of my skills and projects in software engineering, built with React.js, Next.js, Shadcn, and Tailwind CSS.",
-        url: "https://github.com/AyoubProjects28/portfolio",
-        state: 'InProgress'
-    },
-    {
         logo: ShoppingCart,
         title: "Ecommerce Platform",
         description: "A robust and scalable e-commerce application developed with React, Spring, and MySQL.",
         url: "https://github.com/AyoubProjects28/ecommerce-app",
         state: 'InProgress'
+    },
+    {
+        logo: BriefcaseBusiness,
+        title: "Software Engineering Portfolio",
+        description: "A showcase of my skills and projects in software engineering, built with React.js, Next.js, Shadcn, and Tailwind CSS.",
+        url: "https://github.com/AyoubProjects28/portfolio",
+        state: 'Completed'
     },
     {
         logo: CircuitBoard,

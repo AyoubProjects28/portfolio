@@ -27,7 +27,7 @@ export const Education = () => {
                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                     <time className="mb-1 text-md text-muted-foreground">2024 (first semester)</time>
                     <div className="flex items-start gap-4">
-                        <img src="https://play-lh.googleusercontent.com/Jhku_IAZpspqslD31OfyXQ5bnIi3RzEq8cShPkas9xKpwo4gv926IPykqrXUwCGUBVxu=w240-h480-rw" alt="HUST" width={55} height={55} className="m-auto"/>
+                        <img src="https://play-lh.googleusercontent.com/Jhku_IAZpspqslD31OfyXQ5bnIi3RzEq8cShPkas9xKpwo4gv926IPykqrXUwCGUBVxu=w240-h480-rw" alt="HUST" width={55} height={55} className="m-auto rounded-md"/>
                         <div>
                             <h3 className="text-2xl font-semibold tracking-tight mb-1">Hanoi University of Science and Technology (HUST)</h3>
                             <p className="text-sm text-muted-foreground">
