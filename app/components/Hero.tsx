@@ -18,7 +18,7 @@ export const Hero = () => {
                     <Code className="inline-flex items-center gap-1" href="https://spring.io/">
                         <SpringIcon size={16} className="inline"/> Spring
                     </Code>, 
-                    but I enjoy leveraging my broader skillset to tackle diverse challenges across the stack. Living in  
+                    but I enjoy leveraging my broader skillset to tackle diverse challenges across the stack. Living in {""}
                     <Code className="inline-flex items-center gap-1">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/langfr-338px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png" style={{width: "16px", height: "auto"}} alt="french flag" className="inline"/> Paris
                     </Code>. 
